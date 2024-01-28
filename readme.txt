@@ -61,7 +61,12 @@ The prediction could also be done in an simple way with the 'LogisticRegression'
 Next Steps
 ----------
 
-For further improve the model performance additional features could be created and proved.
-Maybe new features could be:
-# Current available amount of money on a bank account
-# Monthly savings
+1.) For further improve the model performance additional features could be created and proved.
+    Maybe new features could be:
+    # Current available amount of money on a bank account
+    # Monthly savings
+
+2.) Do not use highly correlated features any more.
+    The features 'job' and 'education' are strongly correlated therefore only one should be used. 
+    Similar is the correlation between 'age' and 'marital_single'.
+       
